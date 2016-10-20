@@ -1,7 +1,7 @@
 .SILENT :
 .PHONY : build clean cleanup start
 
-USERNAME:=ncarlier
+USERNAME:=jeremy
 APPNAME:=devbox
 IMAGE:=$(USERNAME)/$(APPNAME)
 
@@ -21,4 +21,3 @@ cleanup:
 
 start:
 	./devbox
-

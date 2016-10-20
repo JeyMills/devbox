@@ -20,7 +20,7 @@
 - name: lightdm auto login
   lineinfile: dest=/etc/lightdm/lightdm.conf
     regexp='^#?autologin-user='
-    line='autologin-user=nicolas'
+    line='autologin-user=jeremy'
     state=present
 
 - name: lightdm auto login
@@ -28,4 +28,3 @@
     regexp='^#?autologin-user-timeout='
     line='autologin-user-timeout=0'
     state=present
-

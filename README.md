@@ -70,7 +70,7 @@ Start the container with Docker:
 docker run --name="devbox" -h "devbox" \
   -v /var/run/docker.sock:/var/run/docker.sock \
   -it \
-  ncarlier/devbox
+  jeremy/devbox
 ```
 
 ## Remaining work
