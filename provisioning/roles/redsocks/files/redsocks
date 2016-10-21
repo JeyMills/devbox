@@ -10,7 +10,7 @@ rs_start() {
         --net=host \
         -v /etc/redsocks-whitelist.txt:/etc/redsocks-whitelist.txt \
         -d \
-        ncarlier/redsocks
+        jeremy/redsocks
 }
 
 ################
@@ -40,4 +40,3 @@ case "$1" in
         ;;
 esac
 exit 0
-

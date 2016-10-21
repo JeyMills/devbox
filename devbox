@@ -18,7 +18,7 @@ start_new_container()
         -v $SHARED_DIR:/var/shared \
         -v /var/run/docker.sock:/var/run/docker.sock \
         -it \
-        ncarlier/devbox
+        jeremy/devbox
 }
 
 docker ps | grep devbox
@@ -37,4 +37,3 @@ else
     echo "Devbox already running, re-attach..."
     docker attach devbox
 fi
-
