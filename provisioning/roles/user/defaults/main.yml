@@ -1,7 +1,5 @@
 ---
 users:
-  - login: nicolas
-    github: ncarlier
-    email: hostmaster@nunux.org
-    dotfiles: "https://github.com/ncarlier/dotfiles.git"
-
+  - login: jeremy
+    github: JeyMills
+    dotfiles: "https://github.com/JeyMills/dotfiles.git"
