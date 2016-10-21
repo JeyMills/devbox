@@ -4,18 +4,7 @@
 hostname: devbox
 
 motd_header: |
-<<<<<<< HEAD
- ._____             _
- |  __ \           | |
- | |  | | _____   _| |__   _____  __
- | |  | |/ _ \ \ / / `_ \ / _ \ \/ /
- | |__| |  __/\ V /| |_) | (_) >  <
- |_____/ \___| \_/ |_.__/ \___/_/\_\
 
-users:
-  - login: jeremy
-    github: JeyMills
-=======
  ._____             _
  |  __ \           | |
  | |  | | _____   _| |__   _____  __
@@ -27,4 +16,3 @@ users:
   - login: jeremy
     github: JeyMills
     dotfiles: "https://github.com/JeyMills/dotfiles.git"
->>>>>>> 6391882cf5a29b811f58e26d121f6d5b0b418fbd
